@@ -1,6 +1,6 @@
-# 🔍 CSV Find - Scanner CSV em Lote
+#  CSV Find - Scanner CSV em Lote
 
-## 📌 Descrição
+##  Descrição
 
 O **CSV Find** é uma aplicação desktop desenvolvida em Python com interface gráfica (GUI) que permite realizar buscas em lote dentro de arquivos `.csv`.
 
@@ -8,23 +8,23 @@ O programa percorre automaticamente uma pasta (e suas subpastas), procurando por
 
 ---
 
-## 🚀 Funcionalidades
+##  Funcionalidades
 
-* 🔎 Busca em múltiplos arquivos `.csv`
-* 📂 Varredura recursiva em pastas e subpastas
-* 🧾 Busca por múltiplos termos (um por linha)
-* ⚡ Execução em thread (não trava a interface)
-* 📍 Exibe:
+*  Busca em múltiplos arquivos `.csv`
+*  Varredura recursiva em pastas e subpastas
+*  Busca por múltiplos termos (um por linha)
+*  Execução em thread (não trava a interface)
+*  Exibe:
 
   * Nome do arquivo
   * Linha onde foi encontrado
   * Caminho completo
-* ❌ Indica itens não encontrados
-* 🎨 Interface moderna com CustomTkinter
+*  Indica itens não encontrados
+*  Interface moderna com CustomTkinter
 
 ---
 
-## 🖥️ Interface
+##  Interface
 
 * Campo para inserir múltiplos termos (ex: seriais)
 * Seleção de pasta raiz
@@ -34,7 +34,7 @@ O programa percorre automaticamente uma pasta (e suas subpastas), procurando por
 
 ---
 
-## 🛠️ Tecnologias utilizadas
+##  Tecnologias utilizadas
 
 * Python 3.x
 * customtkinter
@@ -45,7 +45,7 @@ O programa percorre automaticamente uma pasta (e suas subpastas), procurando por
 
 ---
 
-## 📦 Instalação
+##  Instalação
 
 1. Clone o repositório:
 
@@ -67,7 +67,7 @@ pip install customtkinter
 
 ---
 
-## ▶️ Como usar
+##  Como usar
 
 1. Execute o programa:
 
@@ -91,20 +91,20 @@ TESTE001
 
 ---
 
-## 📊 Exemplo de saída
+##  Exemplo de saída
 
 ```
 --- Buscando por: ABC123 ---
-✅ ACHOU: ABC123
-📄 arquivo.csv (Linha 25)
-📍 C:\dados\arquivo.csv
+ ACHOU: ABC123
+ arquivo.csv (Linha 25)
+ C:\dados\arquivo.csv
 
-❌ NÃO ENCONTRADO: XYZ789
+ NÃO ENCONTRADO: XYZ789
 ```
 
 ---
 
-## ⚠️ Observações
+##  Observações
 
 * Apenas arquivos `.csv` são analisados
 * Arquivos com erro de leitura são ignorados automaticamente
@@ -112,7 +112,7 @@ TESTE001
 
 ---
 
-## 💡 Possíveis melhorias futuras
+##  Possíveis melhorias futuras
 
 * Exportar resultados para arquivo `.txt` ou `.csv`
 * Filtros avançados de busca
@@ -122,7 +122,7 @@ TESTE001
 
 ---
 
-## 👨‍💻 Autor
+##  Autor
 
 Desenvolvido por **Caio César**
 
